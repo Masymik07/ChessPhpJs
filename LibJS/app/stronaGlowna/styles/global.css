@@ -1,0 +1,117 @@
+
+html{
+    overflow: hidden;
+    font-family: poppins;
+    font-weight: 500;
+    font-size:20px;
+    font-style: normal;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none; 
+    -khtml-user-select: none; 
+    -moz-user-select: none;
+    -ms-user-select: none; 
+    user-select: none;
+    background: #000000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+    z-index: 10;
+}
+
+.powKontener{
+    position:absolute;
+    z-index: 100;
+}
+.kontenerMenu{
+    margin-right:10px;
+    height: 150px;
+}
+
+.opcjaMenu{
+    padding-right:2vw;
+    float:right;
+    list-style:none;
+    display: inline;
+    white-space: nowrap;
+    transition: 0.3s ease-out;
+    line-height: 100px;
+    text-align: center;
+}
+
+.opcjaMenu:hover{ 
+    color:#B48752;
+}
+
+img{
+    float: left;
+    margin-left: 3vw;
+    height: 100px;
+}
+
+button, a{
+    text-decoration: none;
+    background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+.menuWysuwane{
+    position: relative;
+    text-align: center;
+}
+
+.menu{
+    width: 20vw;
+    margin-left: 38vw;
+    margin-top: -1.5vh;
+    transition: 0.3s ease-in;
+}
+
+ul{
+    list-style: none;
+}
+
+.opcja{
+    border-top-right-radius: 40px;
+    border-top-left-radius: 40px;
+}
+
+.opcjaMenu1{
+    border: 1px solid #B48752;
+    background-color: #4343437a;
+    margin-top: -1px;
+    color:white;
+    height: 5vh;
+    width: 20vw;
+}
+
+.txt{
+    margin-top: 10px;
+}
+
+.wyslijZapr{
+    text-align: center;
+}
+
+.wyslijZapr input{
+    height: 50px;
+    width: 400px;
+    font-size: larger;
+    margin-right: 10px;
+    color:white;
+    background-color: #434343;
+}
+
+.wyslijZapr button{
+    height: 50px;
+    width: 100px;
+    border: 3px solid #B48752;
+}
+
+::placeholder{
+    color:wheat;
+    padding-left: 10px;
+}

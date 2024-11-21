@@ -1,0 +1,52 @@
+.powKontener{
+    position:relative;
+    text-align: center;
+    align-self: start;
+    width: 100px;
+    margin-left: 30vw;
+    margin-top: -20px;
+}
+
+.border{
+    height: 100px;
+    width: 40vw;
+    border-radius: 30px;
+    background-color: #2e88d142;
+    border: 3px solid #2e89d1;
+}
+
+.ikonaPow{
+    height: 50px;
+    margin-top: 5px;
+    margin-left: -10px;
+}
+
+.nazwaUz{
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.buttonPwd{
+    border: 3px solid #2e89d1;
+    border-radius: 30px;
+    margin-top: 30px;
+    width: 45%;
+}
+
+.tak{
+    background-color: #2e88d142;
+    margin-right: 5px;
+}
+
+.nie{
+    background-color: #2e88d142;
+    margin-left: 5px;
+}
+
+.nie:hover{
+    background-color: #2e88d100;
+}
+
+.tak:hover{
+    background-color: #2e88d100;
+}

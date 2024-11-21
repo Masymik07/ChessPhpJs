@@ -1,0 +1,31 @@
+   *** GOOGLE SHEETS API ***
+
+    To connect to a Sheet using 
+    Sheets api you need to include:
+
+    import "../lib/APIs/GoogleSheets/scripts";
+        
+    this line of code in your javascript 
+    then use ConnectToASheet function with
+    3 arguments: 
+
+    - the first one is auth this is where
+      you paste your private key to your
+      spreadsheet ( you can find it in json
+      file from google cloud ),
+
+    - secound one is range this is name of 
+      your spreadsheet followed by exclamation 
+      mark and then fields you want to acces,
+      if you want to acces all fields the range 
+      woud be "NameOfYourShield!A:Z" otherwise
+      it would look like this: "NameOfYourShield!A1:B2",
+
+    - third one is your Spreadsheet Id. You can
+      find it in a link to your spreadsheet.
+      example:
+       - "https://docs.google.com/spreadsheets/d/12o2dcjqUXoI0Z-h8Q5e779-aqKRMnnKZnplFteDfQTs"
+      the last part would be your Spreadsheet Id: "12o2dcjqUXoI0Z-h8Q5e779-aqKRMnnKZnplFteDfQTs"
+      
+
+    
